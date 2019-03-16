@@ -72,19 +72,19 @@
 
     - assert ()
 
-    ```js
-      // assert(value[, message])
-      const assert = require('assert');
-      // 简单的加法
-      function add(a, b) {
-          return a + b
-      }
-      assert(add(1,2)===2, '检验没通过')
-      执行会返回一个 AssertionError 里面会包含 '检验没通过' 信息
-      
-      assert(add(1,2)===3, '检验没通过')
-      // 这里没有任何输出
-    ```
+      ```js
+        // assert(value[, message])
+        const assert = require('assert');
+        // 简单的加法
+        function add(a, b) {
+            return a + b
+        }
+        assert(add(1,2)===2, '检验没通过')
+        执行会返回一个 AssertionError 里面会包含 '检验没通过' 信息
+
+        assert(add(1,2)===3, '检验没通过')
+        // 这里没有任何输出
+      ```
 
     - assert.deepEqual(actual, expected[, message])
 
