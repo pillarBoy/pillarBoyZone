@@ -1,0 +1,47 @@
+2019-07-11 17:30:11,380 WARN 37862 [-/127.0.0.1/-/137ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-07-11 17:30:11,382 WARN 37862 [-/127.0.0.1/-/139ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/app/extend/context.js:157:17)
+    at csrf (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at /Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 37862
+hostname: liangwehudeiMac.localdomain
+
+2019-07-11 17:31:22,674 WARN 38553 [-/127.0.0.1/-/14ms POST /api/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-07-11 17:31:22,676 WARN 38553 [-/127.0.0.1/-/16ms POST /api/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/app/extend/context.js:157:17)
+    at csrf (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at /Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 38553
+hostname: liangwehudeiMac.localdomain
+
+2019-07-11 17:32:02,737 ERROR 38565 [-/127.0.0.1/-/14ms POST /api/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at /Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/liangwenzhu/my-space/pillarBoyZone/project/Server/node_modules/koa-compose/index.js:42:32)
+
+pid: 38565
+hostname: liangwehudeiMac.localdomain
+

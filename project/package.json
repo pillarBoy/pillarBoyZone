@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "pillar",
+    "email": "601991736@qq.com",
+    "url": "https://github.com/pillarBoy/pillarBoyZone.git"
+  }
+}

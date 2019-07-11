@@ -1,0 +1,17 @@
+{
+  "name": "pillar-zone-server",
+  "version": "1.0.0",
+  "description": "pillar zone server",
+  "main": "index.js",
+  "author": "pillar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "dependencies": {
+    "egg": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
+}

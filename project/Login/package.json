@@ -1,0 +1,31 @@
+{
+  "name": "pillar-zone-login",
+  "version": "1.0.0",
+  "description": "pillar zone login module",
+  "author": "pillar",
+  "private": true,
+  "scripts": {
+    "test": "ava",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "ant-design-vue": "^1.1.10",
+    "cross-env": "^5.2.0",
+    "koa": "^2.6.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^1.0.1",
+    "browser-env": "^3.2.5",
+    "nodemon": "^1.18.9",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^0.1.1",
+    "require-extension-hooks-vue": "^2.0.0",
+    "sass-loader": "^7.1.0"
+  }
+}
