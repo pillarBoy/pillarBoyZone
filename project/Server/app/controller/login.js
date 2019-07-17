@@ -2,12 +2,12 @@ const Controller = require('egg').Controller
 
 class LoginController extends Controller {
   async index() {
-    let {params} = this.ctx
-    if (params.uname === 'pillar' && params.password === '123456') {
-      this.ctx.body = { 
-        code: 0, 
-        data: { name: 'pillar' }, 
-        msg: 'welcome pillar, login success.' 
+    let { body } = this.ctx.request;
+    if (body.uname === 'pillar' && body.password === '123456') {
+      this.ctx.body = {
+        code: 0,
+        data: { name: 'pillar' },
+        msg: 'welcome pillar, login success.'
       }
     } else {
       this.ctx.body = {

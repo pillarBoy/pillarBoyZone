@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bitkan Pro</title>
+  <base href="/">
+  <meta name="applicable-device" content="pc">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, viewport-fit=cover">
+
+  <meta name="description" content="Bitkan created 'Smart Trade' in the crypto industry, get the best price via our smart routing to Binance, Huobi and OKEx.">
+  <meta name="keywords" content="Aggregate Liquidity, Huobi Global, Binance, OKEx, Cryptocurrency Exchange, Bitcoin Best Price, Ethereum price trend, KAN, Bitkan">
+
+  <meta property="og:title" content="Trade Cryptocurrency with BitKan Global Order Book - Bitkan Pro">
+  <meta property="og:url" content="https://bitkan.pro">
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="BitKan Pro">
+  <meta property="og:image" content="https://img.szsing.com/logo.png">
+  <meta property="og:description" content="Bitkan created 'Smart Trade' in the crypto industry, get the best price via our smart routing to Binance, Huobi and OKEx.">
+
+  <meta property="twitter:title" content="Trade Cryptocurrency with BitKan Global Order Book - Bitkan Pro">
+  <meta property="twitter:site" content="BitKan Pro">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://img.szsing.com/logo.png">
+  <meta property="twitter:image:src" content="https://img.szsing.com/logo.png">
+  <meta property="twitter:description" content="Bitkan created 'Smart Trade' in the crypto industry, get the best price via our smart routing to Binance, Huobi and OKEx.">
+
+  <link rel="dns-prefetch preconnect" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch preconnect" href="//cdn.bitkan.info">
+  <link rel="dns-prefetch preconnect" href="//wapi.bitkan.info">
+  <link rel="dns-prefetch preconnect" href="//www.sobot.com">
+  <link rel="dns-prefetch preconnect" href="//www.googletagmanager.com">
+  <link rel="dns-prefetch preconnect" href="//hm.baidu.com">
+  <link rel="dns-prefetch preconnect" href="//sentry.io">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#4a5ee0">
+
+  <meta name="apple-mobile-web-app-title" content="Bitkan Pro">
+  <meta name="application-name" content="Bitkan Pro">
+  <meta name="msapplication-TileColor" content="#4a5ee0">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type="text/css">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!=='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MLZVZBN');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Baidu Stats -->
+  <script>var _hmt=_hmt||[];(function(){var hm = document.createElement("script");
+      hm.src="https://hm.baidu.com/hm.js?300e6e6f03f8c4a73294ae1247d2bc59";var s=document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);})();</script>
+  <!-- End Baidu Stats -->
+  <style>
+    html,body {background:#12141E;}
+    section#loading {position:fixed;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;}
+    section#loading #loading-layout {position: relative;width: 50px;height: 50px;margin: 0 auto;}
+    #loading-layout img {width: 50px;height: 50px;margin: 0 auto;}
+    section#loading img#origin {opacity: 1; animation: origin-up 1s infinite; transform-origin: 50% 50%;}
+    section#loading img#backup {position: absolute;bottom: -50%;left: -50%; width: 100px; height:100px; opacity: 0.1; animation: backup-up 1s infinite; transform-origin: 50% 50%;}
+    @keyframes backup-up {
+      from {transform: scale(1) scale(0);  opacity: 1;}
+      to   {transform: scale(2) scale(180deg);opacity: 0.2;}
+    }
+    @keyframes origin-up {
+      from {transform: scale(1);opacity: 1;}
+      to   {transform: scale(1);opacity: 0.6;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLZVZBN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <bktrade-root>
+    <section id="loading">
+      <div id="loading-layout">
+        <img id="origin" src="assets/icons/loading-300x300.svg" alt="Bitkan Pro Logo">
+        <img id="backup" src="assets/icons/loading-300x300.svg" alt="Bitkan Pro Logo">
+      </div>
+    </section>
+  </bktrade-root>
+
+  <!-- ============= Outdated Browser ============= -->
+  <div id="outdated"></div>
+
+  <!-- ============= FingerPrintJS ============= -->
+  <script>
+    (function(){
+      const BKTRADE_DEVICEID = localStorage.getItem('BKTRADE_DEVICEID');
+      if (BKTRADE_DEVICEID) {
+        window.deviceid = BKTRADE_DEVICEID;
+      } else {
+        const path = "https://cdn.bitkan.info/static/lib/fingerprintjs2/2.0.6/fingerprint2.js";
+        const head = document.getElementsByTagName('head')[0];
+        const script = document.createElement('script');
+        script.id = path;
+        script.type = 'text/javascript';
+        script.src = path;
+        head.appendChild(script);
+        script.onload = function() {
+          if (window.requestIdleCallback) {
+            requestIdleCallback(function () {
+              Fingerprint2.get(function (components) {
+                window.deviceid = 'web-' + Fingerprint2.x64hash128(components.map(function (pair) { return pair.value }).join(), 31);
+                localStorage.setItem('BKTRADE_DEVICEID', window.deviceid);
+              })
+            })
+          } else {
+            setTimeout(function () {
+              Fingerprint2.get(function (components) {
+                window.deviceid = 'web-' + Fingerprint2.x64hash128(components.map(function (pair) { return pair.value }).join(), 31);
+                localStorage.setItem('BKTRADE_DEVICEID', window.deviceid);
+              })
+            }, 500)
+          }
+        };
+      }
+    })();
+  </script>
+
+
+  <!-- ============= Outdated Browser ============= -->
+  <script src="https://cdn.bitkan.info/static/lib/outdatedbrowser/1.1.5/outdatedbrowser.min.js"></script>
+  <script>
+    // Plain Javascript
+    //event listener: DOM ready
+    function addLoadEvent(func) {
+      var oldonload = window.onload;
+      if (typeof window.onload !== 'function') {
+        window.onload = func;
+      } else {
+        window.onload = function() {
+          if (oldonload) {
+            oldonload();
+          }
+          func();
+        }
+      }
+    }
+    //call plugin function after DOM ready
+    addLoadEvent(function(){
+      const style = document.createElement('link');
+      style.setAttribute('rel', 'stylesheet');
+      style.setAttribute('type', 'text/css');
+      style.setAttribute('href', 'https://cdn.bitkan.info/static/lib/outdatedbrowser/1.1.5/outdatedbrowser.min.css');
+      outdatedBrowser({
+        bgColor: '#f25648',
+        color: '#ffffff',
+        lowerThan: 'borderImage',
+        languagePath: 'https://cdn.bitkan.info/static/lib/outdatedbrowser/1.1.5/lang/en.html'
+      })
+    });
+  </script>
+  <!-- ============= TradingView ============= -->
+  <!-- <script async src="https://cdn.bitkan.info/static/lib/tradingview/1.14/charting_library/charting_library.min.js"></script> -->
+<script type="text/javascript" src="main.js"></script></body>
+</html>

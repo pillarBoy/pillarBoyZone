@@ -35,13 +35,14 @@ module.exports = {
   plugins: [
     '@/plugins/antd-ui',
     "@/plugins/api-inject",
-    // {src:'@/plugins/axios', mode: 'client'}
+    {src:'@/plugins/axios', mode: 'client'}
   ],
   axios: {
     proxy: true
   },
   proxy: {
-    "/api": "http://localhost:7001"
+    // "/api": "http://localhost:7001",
+    "/token": "http://localhost:7001",
   },
   /*
   ** Nuxt.js modules

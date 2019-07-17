@@ -1,0 +1,3 @@
+- 1.初始化pairs和rules
+- 2.创建socket
+- 3.socket open,订阅pairs和对应的pair的rule notice

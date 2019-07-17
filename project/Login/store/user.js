@@ -4,6 +4,8 @@ export const state = () => ({
 
 export const mutations = {
   init(state, token) {
+    console.log('token init');
+    
     state.token = token;
   }
 };
@@ -12,7 +14,6 @@ export const actions = {
   login({commit}, payload) {
     return this.$login(payload)
       .then(res => {
-        console.log(res);
         commit('init', '123456')
         return res
       })

@@ -5,9 +5,11 @@ const baseURL = '/api'
 
 module.exports = app => {
   const { router, controller } = app;
-  const get = (url, ct) => router.get(baseURL+url, ct)
-  const post = (url, ct) =>  router.post(baseURL+url, ct)
-  // router.get('/login', controller.login.index);
-  get('/home', controller.home.index)
-  post('/login', controller.login.index)
+  const apiGet = (url, ct) => router.get(baseURL+url, ct)
+  const apiPost = (url, ct) =>  router.post(baseURL+url, ct)
+
+  router.get('/token', controller.token.index)
+
+  apiGet('/home', controller.home.index)
+  apiPost('/login', controller.login.index)
 };

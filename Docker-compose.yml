@@ -7,9 +7,9 @@ services:
       - 6300:80
     volumes:
       - ./nginx/conf.d/:/etc/nginx/conf.d/
-  # redis:
-  #   image: redis
-  #   ports:
-  #     - "6379:6379"
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
 
   
