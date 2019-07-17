@@ -20,16 +20,16 @@ module.exports = {
     compress: true,
     port: 6979,
     proxy: {
-      '/proxy': {
-        // http://www.baidu.com
-        "target": "https://wapi.bitkan.com",
-        "secure": false,
-        "changeOrigin": true,
-        "logLevel": "debug",
-        "pathRewrite": {
-          "^/proxy": "/"
-        }
-      },
+      // '/proxy': {
+      //   // http://www.baidu.com
+      //   "target": "",
+      //   "secure": false,
+      //   "changeOrigin": true,
+      //   "logLevel": "debug",
+      //   "pathRewrite": {
+      //     "^/proxy": "/"
+      //   }
+      // },
     }, //　代理在这里修改
   }
 }
