@@ -42,7 +42,7 @@ module.exports = {
   },
   proxy: {
     // "/api": "http://localhost:7001",
-    "/token": "http://localhost:7001",
+    // "/token": "http://localhost:7001",
   },
   /*
   ** Nuxt.js modules

@@ -16,6 +16,9 @@ export default {
       password: "123456"
     };
   },
+  asyncData({$axios}) {
+    // console.log($axios);
+  },
   methods: {
     login() {
       this.$store
@@ -29,7 +32,7 @@ export default {
               title: "登录成功",
               content: res.msg,
               onOk: () => {
-                console.log(this);
+                // console.log(this);
                 this.$router.push('/')
               }
             })
