@@ -1,5 +1,9 @@
 # pillarBoyZone
 
+# 项目qidong
+
+docker-compose up
+
 ## 整合一个前端技术的综合项目展示dome
 
 项目需求：
